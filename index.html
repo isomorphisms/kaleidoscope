@@ -355,9 +355,13 @@ $('loadKlee').addEventListener('click',()=>{
  $('sourceCreditStatus').textContent='Loading the museum image from Wikimedia Commons…';
  const img=new Image();img.crossOrigin='anonymous';
  img.onload=()=>{
+   const priorPixels=ctx.getImageData(0,0,S,S),priorCredit=$('sourceCredit').textContent,priorBaseline=originalBeforePaint;
    try{installImage(img,'Paul Klee — In Angel’s Care (1931). Image: Solomon R. Guggenheim Foundation / Wikimedia Commons, CC0.');
      $('sourceCreditStatus').textContent='Loaded Klee image; both mirror branches now use it.';
-   }catch(err){watercolor(++currentSeed);$('sourceCredit').textContent='Procedural watercolor — Kaleidoscope';schedule();
+   }catch(err){
+     // Reset the bitmap to clear any cross-origin taint; restore the user's image.
+     source.width=S;source.height=S;ctx.putImageData(priorPixels,0,0);snapshot();
+     originalBeforePaint=priorBaseline;$('sourceCredit').textContent=priorCredit;schedule();
      $('sourceCreditStatus').textContent='Cross-origin image processing was blocked. Open the Commons image, save it, then choose Use an image.';
    }
  };
