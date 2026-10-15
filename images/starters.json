@@ -1,0 +1,64 @@
+{
+  "description": "Four images discovered via isomorphismes.tumblr.com; only verified-license external image URLs can be loaded directly.",
+  "provenance_policy": "Never assume an artwork is freely reusable because it is on Tumblr. Keep artist, title, archive post, license and export credit attached to any transformed image.",
+  "images": [
+    {
+      "id": "colormush-2018",
+      "title": "Untitled color study",
+      "artist": "@colormush",
+      "artist_page": "https://colormush.tumblr.com/",
+      "tumblr_post": "https://isomorphismes.tumblr.com/post/176354206508",
+      "year": null,
+      "medium": "animated digital color field",
+      "license": "not verified",
+      "availability": "link_only",
+      "licensed_image_url": null,
+      "use": "Color without structure; freeze any frame before imposing symmetry.",
+      "credit": "Color field: @colormush (via isomorphismes.tumblr.com)."
+    },
+    {
+      "id": "tammet-53x131",
+      "title": "53 × 131 = 6943",
+      "artist": "Daniel Tammet",
+      "artist_page": "https://optimnemblog.blogspot.com/2011/",
+      "tumblr_post": "https://tmblr.co/ZdCxIy1vMrAqt",
+      "year": null,
+      "medium": "numerical-synesthesia artwork",
+      "license": "not verified",
+      "availability": "link_only",
+      "licensed_image_url": null,
+      "use": "Soft shapes and watercolor-like forms give a second, mathematical color source.",
+      "credit": "53 × 131: Daniel Tammet (via isomorphismes.tumblr.com).",
+      "note": "The Tumblr reblog spells the surname Tammett; the artist's own site spells it Tammet."
+    },
+    {
+      "id": "harms-blue-flare",
+      "title": "Blue Flare",
+      "artist": "Bradley Harms",
+      "artist_page": "https://www.galleryjones.com/bradley-harms",
+      "tumblr_post": "https://tmblr.co/ZdCxIy2eH4H07",
+      "year": 2013,
+      "medium": "acrylic painting",
+      "license": "not verified",
+      "availability": "link_only",
+      "licensed_image_url": null,
+      "use": "Dense, sharply colored marks test reflections against preexisting visual structure.",
+      "credit": "Blue Flare (2013): Bradley Harms (via isomorphismes.tumblr.com)."
+    },
+    {
+      "id": "klee-in-angels-care",
+      "title": "In Angel's Care",
+      "artist": "Paul Klee",
+      "artist_page": "https://www.guggenheim.org/artwork/2174",
+      "tumblr_post": "https://isomorphismes.tumblr.com/post/627760472123392001/klee",
+      "year": 1931,
+      "medium": "watercolor and colored inks",
+      "license": "CC0 for Wikimedia Commons reproduction",
+      "license_page": "https://commons.wikimedia.org/wiki/File:GUGG_In_Angel%27s_Care.jpg",
+      "availability": "publicly_loadable",
+      "licensed_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/GUGG_In_Angel%27s_Care.jpg",
+      "use": "Sparse linework gives obvious recognizable features after each reflection.",
+      "credit": "In Angel's Care (1931): Paul Klee. Image: Solomon R. Guggenheim Foundation / Wikimedia Commons (CC0)."
+    }
+  ]
+}
